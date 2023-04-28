@@ -1,0 +1,62 @@
+body{
+    font-family: 'Comic Sans MS';
+}
+
+nav{
+    background-color: rgb(255,200,112);
+}
+section{
+    background-color: rgb(247, 247,198);
+}
+h1{
+    text-align: center;
+    color: navy;
+    border-bottom: 10px solid navy; /*-top, -left, right*/
+}
+h2{
+    text-align: center;
+    color: navy;
+    border-bottom: 15px solid navy; /*-top, -left, right*/
+}
+a{
+    display: inline-block; /*Se muestra bloques en linea*/
+    
+    border-radius: 10px; /*establecer esquinas redondeadas redondeo */
+    box-shadow: -3px -3px 3px rgba(124, 124, 124, 0.603); /*establecer sombra, parametros: desplazamiento pixeles izquierdo, abajo, difuminado y color */
+    background-color: rgba(255, 255, 255, 0.774);
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    width: 215px; 
+    margin: 20px; 
+    padding: 10px; 
+}
+form{
+    display: block;
+    width: 600px;
+    margin: auto;
+    border: 2px navy solid;
+    padding: 20px;
+}
+label{
+    color: navy ;
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 8px;
+    font-weight: bold; /*texto en negritas*/
+}
+menu a{  /*significa que solo aplica a los hipervinculos dentro del menu*/
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+}
+menu{
+    border: 1px solid gray;
+    background-color: gainsboro;
+    text-align: center;
+}

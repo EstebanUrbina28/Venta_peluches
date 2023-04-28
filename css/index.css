@@ -1,0 +1,26 @@
+body{
+    font-family: 'Kristen ITC';
+    background-image: url(".+./img/construccion.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 5px;
+    border: 10px solid blue;
+    margin: 10px;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+nav{
+    position: absolute;
+    top: 95%;
+}

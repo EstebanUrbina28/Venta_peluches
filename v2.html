@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ventas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index1.css'>
+    <script src='main.js'></script>
+    <script src='js/jquery-3.5.1.min.js'></script>
+    <script src='js/codigo.js'></script>
+</head>
+<body>
+    <h1>Registro De ventas</h1>
+    <hr>
+    <menu>
+        <a href="index.html">Inicio</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="productos.html">Productos</a>
+        <a href="venta.html">Tienda</a>
+    </menu>
+    <hr>
+    <body>
+        
+           <strong> <h2> Mis pedidos !! </h2></strong>
+            <hr>
+            <img src="surrealismo/2.jpg" width="250" height="250">
+             <hr>
+             <strong>
+            almohada extraña 1.0 <br>
+            Tipo: Decoracion <br>
+            Precio de venta: 70.000 <br>
+        </strong>
+        <hr>
+        <form id="frmsuma">
+            <label for="txtn1">Precio Del productos </label>
+            <input type="number" name="txtn1" id="txtn1" required min="70000" max="70000" value="0"><br>
+            <label for="txtn2">Digite La cantidad </label>
+            <input type="number" name="txtn2" id="txtn2" required min="0" max="10" value="0"><br>
+            <label for="lstop">Total  A pagar  </label>
+            <select name="lstop" id="lstop">
+                <option value="*">Pagar</option>
+               
+            </select>
+    
+            <hr>
+            <input type="submit" value="Calcular">
+            <input type="reset" value="Limpiar">
+            <hr>
+            <label for="txtres"> Almohada Extraña 1.0  <br>
+             Total a pagar:</label>
+            <input type="text" readonly id="txtres" name="txtres">
+    
+    
+        </form>
+        <div id="divres"> 
+        </div>   
+    
+</body>
+</html>

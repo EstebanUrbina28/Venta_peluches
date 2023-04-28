@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro de Usuarios </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/p.css'>
+    <script src='main.js'></script>
+    <script src='js/jquery-3.5.1.min.js'></script>
+    <script src='js/codigo.js'></script>
+</head>
+<body>
+    <h1>Formulario Registro</h1>
+    <hr>
+    <menu>
+        <a href="index.html">Inicio</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="productos.html">Productos</a>
+        <a href="venta.html">venta</a>
+    </menu>
+    <form>
+        <h2>Iniciar Sesion</h2>
+        <label for="txtcorreo">Correo Electrónico</label>
+        <input type="email" name="txtcorreo" required><br>
+        <label for="txtcon">Contraseña</label>   
+        <input type="text" name="txtcon" id="txtcon"  required pattern="[a-z]{1}-[0-9]{6}" placeholder="Una letra, guion y 6 numeros"><br>
+        <hr>
+        <div class="barra_boton">
+            <input type="submit" value="Iniciar">  
+            <input type="reset" value="Limpiar datos">     
+        </div>
+    </form>
+         <hr>
+    
+        <form action="conexion.php" method="post">
+        <h3>Bienvenidos ingrese su Informacion</h3>
+        <label for="txtcod">Cedula </label>  
+        <input type="text" name="txtcod" id="txtcod"  required  placeholder="Numero de 10 digitos">   
+        <label for="txtnom">Nombres completos</label>
+        <input type="text" name="txtnom" required>
+        <label for="txtcorreo">Correo Electrónico</label>
+        <input type="email" name="txtcorreo" required><br>
+        <label for="txtcon">Contraseña</label>   
+        <input type="password" name="txtcon" id="txtcon"  required pattern="[a-z]{1}-[0-9]{6}" placeholder="Una letra, guion y 6 numeros"><br>   
+        </select><br>
+        <label for="lstcarrera">Ciudad</label>
+        <select name="lstcarrera">
+            
+            <option value="1">Cali</option>
+            <option value="2">Bogota</option>
+            <option value="3">Medellin</option>
+            <option value="4">Pasto</option>
+            <option value="5">Ipiales</option>
+            <option value="6">Cartagena</option>
+            <option value="6">Otra</option>
+        </select><br>
+        <label for="txtdir">Direccion </label>
+        <input type="text" name="txtdir" required><br>
+     
+      
+        <hr>
+        <div class="barra_boton">
+            <input type="submit" value="Registrar">  
+            <input type="reset" value="Limpiar datos">     
+        </div>
+    </form>
+      
+</body>
+</html>
